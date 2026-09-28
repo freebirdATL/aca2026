@@ -1,15 +1,18 @@
 public class DoubleOperations {
     public static void main(String[] args) {
-        //Below, declare two variables that hold a double.
+        //Declare two variables that hold a double.
         double D1;
         double D2;
-       //Below, assign a literal value to each variable.
+       //Assign a literal value to each variable.
         D1 = 3.14;
         D2 = 5.5;
-        
+       //Print the sum of the variables
         System.out.print("\n" + (D1 + D2) + "\n");
+        //Print the difference of the variables
         System.out.print("\n" + (D2 - D1) + "\n");
+        //Print product of the variables
         System.out.print("\n" + (D1 * D2) + "\n");
+        //Print quotient of the two variables
         System.out.print("\n" + (D2 / D1) + "\n\n");
     }
 }
