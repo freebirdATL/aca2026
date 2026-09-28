@@ -1,7 +1,7 @@
 public class IntOperations {
     public static void main(String[] args) {
-        double a = 3.0;
-        double b = 2.0;
+        int a = 3;
+        int b = 2;
         System.out.print(a / b);
     }
 }
