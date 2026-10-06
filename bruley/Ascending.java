@@ -6,7 +6,7 @@ public class Ascending {
         int int2 = Integer.parseInt(args[1]);
         int int3 = Integer.parseInt(args[2]);
        
-        //Create the boolean var that is T or F
+        //Create the boolean var that determines if args are ascending & sequential
         boolean result = (int1 == int2 - 1) && (int2 == int3 - 1);
         
         //Print boolean var that was determined above
