@@ -7,7 +7,7 @@ public class Ascending {
         int int3 = Integer.parseInt(args[2]);
        
         //Create the boolean var that is T or F
-        boolean result = (int1 < int2) && (int2 < int3);
+        boolean result = (int1 == int2 - 1) && (int2 == int3 - 1);
         
         //Print boolean var that was determined above
         System.out.print(result);
