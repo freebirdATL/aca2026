@@ -4,7 +4,5 @@ public class Ascending {
         int num2 = Integer.parseInt(args[1]);
         int num3 = Integer.parseInt(args[2]);
         System.out.print(num1 < num2 && num2 < num3);
-
-
     }
 }
