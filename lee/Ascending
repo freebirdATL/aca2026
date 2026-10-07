@@ -1,0 +1,6 @@
+public class sitting {
+    public static void main(String[] args){
+        //it should take 3 integers and return true or false whether the integers are in ascending order
+        System.out.print("\n");
+    }   
+}
