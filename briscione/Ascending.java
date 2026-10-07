@@ -4,7 +4,7 @@ public class Ascending{
         int secondnum = Integer.parseInt(args[1]);
         int thirdnum = Integer.parseInt(args[2]);
         boolean Ascending = firstnum < secondnum && thirdnum > secondnum;
-        System.out.print(Ascending);
-        boolean Ascending = firstnum + 1 < secondnum && thirdnum > secondnum + 1;
+        boolean will = secondnum == firstnum +1 && thirdnum == secondnum + 1;
+        System.out.print(Ascending && will);
     }
 }
